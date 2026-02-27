@@ -2,16 +2,16 @@
  * ============================================================
  * MAIN CLASS - UseCase11PalindromeCheckerApp
  * ============================================================
- *
+
  * Use Case 11: Object-Oriented Palindrome Service
- *
+
  * Description:
  * This class demonstrates palindrome validation using
  * object-oriented design.
- *
+
  * The palindrome logic is encapsulated inside a
  * PalindromeService class.
- *
+
  * This improves:
  * - Reusability
  * - Readability
@@ -21,7 +21,7 @@
  * @version 11.0
  */
 
-public class UseCase11PalindromeCheckerApp {
+public class PalindromeApp {
 
     /**
      * Application entry point for UC11.
@@ -46,7 +46,7 @@ public class UseCase11PalindromeCheckerApp {
 /**
  * Service class that contains palindrome logic.
  */
-class PalindromeApp {
+class PalindromeService {
 
     /**
      * Checks whether the input string is a palindrome.
