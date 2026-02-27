@@ -1,71 +1,55 @@
-import java.util.Queue;
-import java.util.LinkedList;
-import java.util.Stack;
-
 /**
- * =========================================================
- * MAIN CLASS - UseCase6PalindromeCheckerApp
- * =========================================================
+ * ============================================================
+ * MAIN CLASS - UseCase10PalindromeCheckerApp
+ * ============================================================
  *
- * Use Case 6: Queue + Stack Fairness Check
+ * Use Case 10: Normalized Palindrome Validation
  *
  * Description:
- * This class demonstrates palindrome validation using
- * two different data structures:
+ * This class validates a palindrome after preprocessing
+ * the input string.
  *
- * - Queue (FIFO - First In First Out)
- * - Stack (LIFO - Last In First Out)
+ * Normalization includes:
+ * - Removing spaces and symbols
+ * - Converting to lowercase
  *
- * Characters are inserted into both structures and then
- * compared by removing from the front of the queue and
- * the top of the stack.
+ * This ensures the palindrome check is logical rather
+ * than character-format dependent.
  *
- * If all characters match, the input string is confirmed
- * as a palindrome.
- *
- * This use case helps understand how FIFO and LIFO
- * behaviors can be combined for symmetric comparison.
+ * Example:
+ * "A man a plan a canal Panama"
  *
  * @author Developer
- * @version 6.0
+ * @version 10.0
  */
 
 public class PalindomeApp {
 
     /**
-     * Application entry point for UC6.
+     * Application entry point for UC10.
      *
      * @param args Command-line arguments
      */
     public static void main(String[] args) {
 
-        // Define the input string to validate
-        String input = "civic";
+        String input = "A man a plan a canal Panama";
 
-        // Create a Queue to store characters in FIFO order
-        Queue<Character> queue = new LinkedList<>();
+        // Normalize: remove non-alphanumeric characters & convert to lowercase
+        String normalized = input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
-        // Create a Stack to store characters in LIFO order
-        Stack<Character> stack = new Stack<>();
-
-        // Insert each character into both queue and stack
-        for (char c : input.toCharArray()) {
-            queue.add(c);
-            stack.push(c);
-        }
-
-        // Flag to track palindrome status
         boolean isPalindrome = true;
 
-        // Compare characters until the queue becomes empty
-        while (!queue.isEmpty()) {
-            if (!queue.remove().equals(stack.pop())) {
+        // Compare characters from both ends
+        for (int i = 0; i < normalized.length() / 2; i++) {
+
+            // Compare symmetric characters
+            if (normalized.charAt(i) !=
+                    normalized.charAt(normalized.length() - 1 - i)) {
                 isPalindrome = false;
                 break;
             }
         }
 
-        // Display results
         System.out.println("Input : " + input);
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
