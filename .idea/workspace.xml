@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fbd0621-647a-4da6-a7e2-faf597789b7c" name="Changes" comment="Normalized Palindrome Validation" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SAKSHAM-PANDEY101&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SAKSHAM-PANDEY101/Palindrome-Checker-App.git",
+    "accountId": "828fd8f5-f6b7-4a03-a3ac-179d75c68514"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "SAKSHAM-PANDEY101",
+    "repository": "Palindrome-Checker-App"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3ADSjLkvVAs1rTjCM4MNCXJYEYD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PalindomeApp.executor": "Run",
+    "Application.UseCase1palindomeApp.executor": "Run",
+    "Application.UseCase3PalindromeCheckerApp.executor": "Run",
+    "Application.UseCase7PalindromeCheckerApp.executor": "Run",
+    "Application.UseCase8PalindromeCheckerApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/UC11",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp/OneDrive/Desktop/Palindrome Checker App/Palindrome Checker App",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="impliment checks of palindrome.">
+      <option name="closed" value="true" />
+      <created>1771560162157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771560162158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="reverse string based check">
+      <option name="closed" value="true" />
+      <created>1771561311907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771561311907</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Character Array Based Validation">
+      <option name="closed" value="true" />
+      <created>1771561684593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771561684593</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" Stack Based Palindrome Checker">
+      <option name="closed" value="true" />
+      <created>1771561983008</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771561983008</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Queue + Stack Fairness Check">
+      <option name="closed" value="true" />
+      <created>1771562186345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771562186345</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fbd0621-647a-4da6-a7e2-faf597789b7c" name="Changes" comment="Queue + Stack Fairness Check" />
+      <created>1772125814374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772125814374</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deque Based Optimized Palindrome Checker">
+      <option name="closed" value="true" />
+      <created>1772161065231</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772161065231</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Linked List Based Palindrome Checker">
+      <option name="closed" value="true" />
+      <created>1772161720012</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772161720012</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Recursive Palindrome Checker">
+      <option name="closed" value="true" />
+      <created>1772161941835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772161941835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Normalized Palindrome Validation">
+      <option name="closed" value="true" />
+      <created>1772162263884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772162263884</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="impliment checks of palindrome." />
+    <MESSAGE value="reverse string based check" />
+    <MESSAGE value="Character Array Based Validation" />
+    <MESSAGE value=" Stack Based Palindrome Checker" />
+    <MESSAGE value="Queue + Stack Fairness Check" />
+    <MESSAGE value="Deque Based Optimized Palindrome Checker" />
+    <MESSAGE value="Linked List Based Palindrome Checker" />
+    <MESSAGE value="Recursive Palindrome Checker" />
+    <MESSAGE value="Normalized Palindrome Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalized Palindrome Validation" />
+  </component>
+</project>
